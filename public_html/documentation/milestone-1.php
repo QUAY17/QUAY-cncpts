@@ -6,11 +6,11 @@
 	</head>
 	<body>
 		<header>
-			<h1>QUAY.cncpts</h1>
+			<!--<h1>QUAY.cncpts</h1>-->
 		</header>
 		<main>
-			<img src="../images/jose.jpg" alt="quay concepts" align="center" width="45%" height="50%">
-			<h2>Purpose</h2>
+			<img src="../images/quay.jpg" alt="quay concepts" align="center" width="45%" height="50%">
+			<h2>Content Strategy</h2>
 				<p>The objective of my Personal Website (PWP) is to visually market my web development skills and introduce my company Quay.cncpts. I want to give the viewer a better understanding of who I am in hopes of obtaining future contracts in this field! The challenge is to strategically bridge  my previous career in product design to my current position in web development.</p>
 				<p>I want to captivate the attention of any potential clientele viewing my site with interest and awareness! This should be done with a site that appears professional and versatile but also reflecting my personal style. In the spirit of networking and collaboration, I would also like for my site to attract and invite other developers to contact me!</p>
 				<p>Ultimately, I want my site to market my web development business platform in addition to my design services. I want to maintain a high- end aesthetic suitable for design minded clients who might (or might not be) visually inclined, have a design/ innovation to advertise, an image/ video gallery to display, or a product to sell. In short, offering "Design & Development" services. </p>
