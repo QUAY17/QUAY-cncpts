@@ -18,9 +18,12 @@
 			<p>Portfolio: Thumbnails of design and development work. Image can be selectd and viewed larger.</p>
 			<p>Contact: contact form and favicon icons with social media links</p>
 			<h2>Wire Frames</h2>
-			<img src="../images/mobile1.jpg" alt="mobile wire frame" align="center" width="45%" height="50%">
+			<h3>Desktop</h3></p>
 			<img src="../images/desktop1.jpg" alt="mobile wire frame" align="center" width="45%" height="50%">
 			<img src="../images/desktop2.jpg" alt="mobile wire frame" align="center" width="45%" height="50%">
+			<h3>Mobile</h3>
+			<img src="../images/mobile1.jpg" alt="mobile wire frame" align="center" width="45%" height="50%">
+			<img src="../images/mobile2.jpg" alt="mobile wire frame" align="center" width="45%" height="50%">
 		</main>
 	</body>
 </html>
