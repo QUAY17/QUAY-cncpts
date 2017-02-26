@@ -25,11 +25,9 @@ body {
 }
 .marketing-info h2 {
 	font-family: 'Exo', sans-serif;
-	font-weight: normal;
-}
-.marketing-info .col-lg-4 p {
-	margin-right: 10px;
-	margin-left: 10px;
+	font-size: 20px;
+	text-align: center;
+	/*padding-right: 29px;*/
 }
 
 
