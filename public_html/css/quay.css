@@ -18,15 +18,15 @@ body {
 /* MARKETING CONTENT
 -------------------------------------------------- */
 
-.marketing .col-lg-4 {
+.marketing-info .col-lg-4 {
 	margin-bottom: 20px;
 	text-align: center;
 }
-.marketing h2 {
+.marketing-info h2 {
 	font-family: "Helvetica Neue";
 	font-weight: normal;
 }
-.marketing .col-lg-4 p {
+.marketing-info .col-lg-4 p {
 	margin-right: 10px;
 	margin-left: 10px;
 }
