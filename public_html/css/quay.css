@@ -18,18 +18,17 @@ body {
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
+.h2, h2 {
+	font-family:'Exo';
+	text-align: center;
+	font-size: 20px;
 
+	/*padding-right: 29px;*/
+}
 .marketing-info .col-lg-4 {
 	margin-bottom: 20px;
 	text-align: center;
 }
-.marketing-info h2 {
-	font-family: 'Exo', sans-serif;
-	font-size: 20px;
-	text-align: center;
-	/*padding-right: 29px;*/
-}
-
 
 /* Featurettes
 -------------------------
