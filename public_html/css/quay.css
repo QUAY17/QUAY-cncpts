@@ -9,8 +9,9 @@ body {
   color: #FFF;
 }
 
-/*-------------------------------------------------- */
 /* big image class */
+/*-------------------------------------------------- */
+
 .big-image {
   height: 300px;
 }
@@ -23,7 +24,7 @@ body {
 	text-align: center;
 }
 .marketing-info h2 {
-	font-family: "Helvetica Neue";
+	font-family: 'Exo', sans-serif;
 	font-weight: normal;
 }
 .marketing-info .col-lg-4 p {
@@ -33,13 +34,12 @@ body {
 
 
 /* Featurettes
-------------------------- */
+-------------------------
 
 .featurette-divider {
   margin: 80px 0; /* Space out the Bootstrap <hr> more */
-}
 
-/* Thin out the marketing headings */
+/* Thin out the marketing headings
 .featurette-heading {
   font-weight: 300;
   line-height: 1;
@@ -51,12 +51,13 @@ body {
 -------------------------------------------------- */
 
 @media (min-width: 768px) {
-  /* Navbar positioning foo */
-  .big-image {
-    margin-top: 20px;
-  }
+	/* positioning foo */
+	.big-image {
+		margin-top: 20px;
+	}
+}
 
-
+/*
   .featurette-heading {
     font-size: 50px;
   }
