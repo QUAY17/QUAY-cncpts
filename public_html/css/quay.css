@@ -14,19 +14,35 @@ body {
 /*-------------------------------------------------- */
 
 .big-image {
-  height: 300px;
+  height: 150px;
 }
 
 /* hamburger nav */
 /*-------------------------------------------------- */
-.nav .navbar-nav {
-	padding-bottom: 40px;
+
+div#nav-button {
+	position: absolute;
+	right: 20px;
+	top: 20px;
 }
+
+#nav-button .dropdown-menu {
+	top: 150%;
+	right: -17px;
+	text-align: right;
+	border-radius: 0px;
+}
+
+#nav-button .dropdown {
+	background-color: transparent;
+	padding: 15px;
+	border: fuchsia 3px solid;
+}
+
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
 .marketing-info .col-2-offset-2 {
-	margin-left: 250px;
 	margin-bottom: 20px;
 	text-align: center;
 	font-size: 20px;
@@ -38,22 +54,24 @@ body {
 	font-size: 20px;
 }
 
-/* Featurettes
--------------------------
-
-.featurette-divider {
-  margin: 80px 0; /* Space out the Bootstrap <hr> more */
-
-/* Thin out the marketing headings
-.featurette-heading {
-  font-weight: 300;
-  line-height: 1;
-  letter-spacing: -1px;
+.marketing-info {
+	margin: 80px 0;
 }
+
+/* Thin out the marketing headings*/
+.marketing-info {
+	font-weight: 300;
+	line-height: 1;
+	letter-spacing: -1px;
+}
+
 
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
+@media only screen and (min-width: 992px) {
+/* styles for md, lg screens go here*/
+}
 
 @media (min-width: 768px) {
 	/* positioning foo */
@@ -62,14 +80,12 @@ body {
 	}
 }
 
-/*
   .featurette-heading {
     font-size: 50px;
   }
-}
 
 @media (min-width: 992px) {
-  .featurette-heading {
-    margin-top: 120px;
-  }
+	.featurette-heading {
+		margin-top: 120px;
+	}
 }
