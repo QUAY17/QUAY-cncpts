@@ -17,12 +17,11 @@ body {
   height: 300px;
 }
 
-/* big image class */
+/* hamburger nav */
 /*-------------------------------------------------- */
-.nav-button{
+.nav .navbar-nav {
 	padding-bottom: 40px;
 }
-
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
