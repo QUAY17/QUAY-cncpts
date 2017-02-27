@@ -19,4 +19,7 @@ Your Milestone passes at [Tier IV](https://bootcamp-coders.cnm.edu/projects/pers
 
 You did an amazing job on milestone2a. The content strategy is clear and to the point, and your wireframes are very detail oriented. I can already envision your site. I only saw a few things that are concerning. First, I would recommend putting all needed navigations links into the hamburger button, doing this will give you a much cleaner UI on mobile devices. Second I am a little confused with the content blobs on the desktop wireframe is this where each section you defined in the content strategy will go? If so I recommend that you make sure the content blobs can easily reposition depending on the screen size. For the portfolio thumbnails I would recommend using swipebox or flickity. Dont forget you need a contact form somewhere
 
-# Grade Tier IV
+### Grade Tier IV
+
+## Milestone 2&beta; Feedback
+Nice work so far - detailed notes from our meeting left via Slack. Your Milestone passes at [Tier IV](https://bootcamp-coders.cnm.edu/projects/personal/rubric/). Nice job! :D
