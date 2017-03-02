@@ -160,7 +160,6 @@
  <!-- contact form ================================================= !-->
 
       <div class="container contact-form">
-
         <div class="row">
           <div class="col-md-7 col-md-push-5">
             <address>
@@ -171,6 +170,7 @@
 
           <div class="col-md-7 col-md-push-5">
             <form id="contact" method="post" class="form" role="form">
+          <!--<form id="contact-form" action="php/mailer.php" method="post">-->
               <div class="row">
                 <div class="col-xs-6 col-md-6 form-group">
                   <input class="form-control" id="name" name="name" placeholder="Name" type="text" required autofocus />
@@ -180,6 +180,9 @@
               <textarea class="form-control" id="message" name="message" placeholder="Message" rows="5"></textarea>
               <br />
 
+                <!--reCAPTCHA-->
+                <div class="g-recaptcha" data-sitekey="6LepcRcUAAAAAGVmcebJokjVT21tX4kNjB2o8ayP"></div>
+
               <div class="row">
                 <div class="col-xs-12 col-md-12 form-group">
                   <button class="btn btn-primary pull-right" type="submit">Submit</button>
@@ -188,9 +191,16 @@
             </form>
           </div>
 
-        </div>
+        </div><!--container contact-form"-->
 
-      <!-- /END THE FEATURETTES -->
+      <!--empty area for form error/success output-->
+      <div class="row">
+        <div class="col-xs-12">
+          <div id="output-area"></div>
+        </div>
+      </div>
+
+<!-- footer================================================= !-->
 
 
       <!-- FOOTER -->
