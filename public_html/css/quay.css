@@ -60,8 +60,16 @@ body {
 	letter-spacing: -1px;
 }
 
-.lead {
+p .lead {
 	font-family: 'Scope One', serif;
+}
+
+
+/* contact form
+-------------------------------------------------- */
+
+.contact-form {
+	margin-top:70px;
 }
 
 /* RESPONSIVE CSS
