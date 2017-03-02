@@ -58,23 +58,34 @@ body {
 	letter-spacing: -1px;
 }
 
-.lead {
-	font-family: 'Rajdhani', sans-serif;
+
+/* contact form
+-------------------------------------------------- */
+.content {
+	padding-top: 60px;
 
 }
 
+.lead {
+	font-family: 'Rajdhani', sans-serif;
+}
 
 /* contact form
 -------------------------------------------------- */
 
 .contact-form {
 	margin-top:70px;
+
 }
 
+/* footer
+-------------------------------------------------- */
 .footer {
 	padding-top: 40px;
 	padding-bottom: 40px;
 }
+
+
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
