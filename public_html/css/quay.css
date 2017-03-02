@@ -20,23 +20,18 @@ body {
 /* hamburger nav */
 /*-------------------------------------------------- */
 
-div#nav-button {
+.nav-button {
 	position: absolute;
 	right: 20px;
 	top: 20px;
+	background-color: transparent;
 }
 
-#nav-button .dropdown-menu {
+.nav-button .dropdown-menu {
 	top: 150%;
 	right: -17px;
 	text-align: right;
 	border-radius: 0px;
-}
-
-#nav-button .dropdown {
-	background-color: transparent;
-	padding: 15px;
-	border: fuchsia 3px solid;
 }
 
 
@@ -65,27 +60,32 @@ div#nav-button {
 	letter-spacing: -1px;
 }
 
-
+.lead {
+	font-family: 'Scope One', serif;
+}
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
-@media only screen and (min-width: 992px) {
-/* styles for md, lg screens go here*/
-}
+
 
 @media (min-width: 768px) {
 	/* positioning foo */
 	.big-image {
 		margin-top: 20px;
 	}
+
+	.featurette-heading {
+		font-size: 50px;
+	}
 }
 
-  .featurette-heading {
-    font-size: 50px;
-  }
+
+@media only screen and (min-width: 992px) {
+}/* styles for md, lg screens go here*/
 
 @media (min-width: 992px) {
 	.featurette-heading {
 		margin-top: 120px;
 	}
 }
+
