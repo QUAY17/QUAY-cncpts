@@ -6,8 +6,6 @@ body {
 	padding-bottom: 40px;
 	padding-left: 20px;
 	padding-right: 20px;
-	font-family: Exo;
-
 }
 
 /* big image class */
@@ -60,8 +58,9 @@ body {
 	letter-spacing: -1px;
 }
 
-p .lead {
-	font-family: 'Scope One', serif;
+.lead {
+	font-family: 'Rajdhani', sans-serif;
+
 }
 
 
@@ -72,6 +71,10 @@ p .lead {
 	margin-top:70px;
 }
 
+.footer {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
