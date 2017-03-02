@@ -15,7 +15,10 @@ $(document).ready(function(){
 			name: {
 				required: true
 			},
-
+			email: {
+				email: true,
+				required: true
+			},
 			message: {
 				required: true,
 				maxlength: 2000
@@ -27,9 +30,12 @@ $(document).ready(function(){
 			name: {
 				required: "Enter your name."
 			},
-
+			email: {
+				email: "Enter valid email.",
+				required: "Enter valid email"
+			},
 			message: {
-				required: "Please enter a message with contact info!",
+				required: "Please enter a message !",
 				maxlength: "2000 characters max."
 			}
 		},
