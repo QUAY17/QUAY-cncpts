@@ -20,7 +20,7 @@ try {
 		throw(new Exception("reCAPTCHA error!"));
 	}
 
-	// sanitize the inputs from the form: name, email, subject, and message
+	// sanitize the inputs from the form: name and message
 	// this assumes jQuery (not Angular will be submitting the form, so we're using the $_POST superglobal
 	$name = filter_input(INPUT_POST, "name", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
 	$message = filter_input(INPUT_POST, "message", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
@@ -28,19 +28,12 @@ try {
 	// create Swift message
 	$swiftMessage = Swift_Message::newInstance();
 
-	// attach the sender to the message
-	// this takes the form of an associative array where the Email is the key for the real name
-	$swiftMessage->setFrom([$email => $name]);
-
 	/**
 	 * attach the recipients to the message
 	 * $MAIL_RECIPIENTS is set in mail-config.php
 	 **/
 	$recipients = $MAIL_RECIPIENTS;
 	$swiftMessage->setTo($recipients);
-
-	// attach the subject line to the message
-	$swiftMessage->setSubject($subject);
 
 	/**
 	 * attach the actual message to the message
