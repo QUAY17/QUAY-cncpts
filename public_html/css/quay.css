@@ -27,10 +27,8 @@ body {
 }
 
 .nav-button .dropdown-menu {
-	top: 150%;
-	right: -17px;
-	text-align: right;
-	border-radius: 0px;
+	margin-left: -13.3rem;
+
 }
 
 
