@@ -173,29 +173,20 @@
 				 <form id="contact-form" action="php/mailer.php" method="post">
               <div class="row">
                 <!--name-->
-                <div class="col-xs-6 col-md-6 form-group">
-                  <input class="form-control" id="name" name="name" placeholder="Name" type="text"/>
-                </div>
-              </div>
+                <input class="form-control" id="name" name="name" placeholder="Name" type="text"/>
                <!--email-->
-               <div class="col-xs-6 col-md-6 form-group">
-                 <input class="form-control" id="email" name="email" placeholder="Email" type="email" required />
-               </div>
+                  <input class="form-control" id="email" name="email" placeholder="Email" type="email" required />
                <!--message-->
-              <textarea class="form-control" id="message" name="message" placeholder="Message" rows="5"></textarea>
-              <br />
+                    <textarea class="form-control" id="message" name="message" placeholder="Message" rows="5"></textarea>
                 <!--reCAPTCHA-->
-                <div class="g-recaptcha" data-sitekey="6LepcRcUAAAAAGVmcebJokjVT21tX4kNjB2o8ayP"></div>
+                  <div class="g-recaptcha" data-sitekey="6LepcRcUAAAAAGVmcebJokjVT21tX4kNjB2o8ayP"></div>
                <!--submit button-->
-              <div class="row">
-                <div class="col-xs-12 col-md-12 form-group">
-                  <button class="btn btn-primary pull-right" type="submit">Submit</button>
+                    <button class="btn btn-primary pull-right" type="submit">Submit</button>
                 </div>
-              </div>
             </form>
-          </div>
+          </div><!-- /.col-md-7 -->
 
-        </div><!--container contact-form"-->
+      </div><!--container contact-form"-->
 
       <!--empty area for form error/success output-->
       <div class="row">
@@ -203,6 +194,8 @@
           <div id="output-area"></div>
         </div>
       </div>
+
+      </div><!-- container contact form-->
 
 <!-- footer================================================= !-->
 
