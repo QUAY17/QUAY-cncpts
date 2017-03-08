@@ -66,12 +66,19 @@ body {
 -------------------------------------------------- */
 .footer {
 	padding-top: 40px;
-	padding-bottom: 20px;
+	padding-bottom: 10px;
 }
 
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
+
+/* Thin out the marketing headings*/
+.marketing-info {
+	font-weight: 300;
+	line-height: 1;
+	letter-spacing: -1px;
+}
 
 
 @media (min-width: 768px) {
@@ -83,8 +90,5 @@ body {
 	@media only screen and (min-width: 992px) {
 	}/* styles for md, lg screens go here*/
 	@media (min-width: 992px) {
-
 	}
 }
-
-
