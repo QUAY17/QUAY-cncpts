@@ -13,7 +13,7 @@ body {
 
 .big-image {
   height: 150px;
-	padding:0px;
+	padding-bottom:20px;
 }
 
 /* hamburger nav */
@@ -34,38 +34,8 @@ body {
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
-.marketing-info .col-2-offset-2 {
-	margin-bottom: 20px;
-	text-align: center;
-	font-size: 20px;
-}
-
-.marketing-info .col-lg-2 {
-	margin-bottom: 20px;
-	text-align: center;
-	font-size: 20px;
-}
-
-.marketing-info {
-	margin: 80px 0;
-}
-
-/* Thin out the marketing headings*/
-.marketing-info {
-	font-weight: 300;
-	line-height: 1;
-	letter-spacing: -1px;
-}
-
-
-/* contact form
--------------------------------------------------- */
-.container {
-	margin-top: 70px;
-	margin-left: 0px;
-	margin-right: 0px;
-	padding-left: 0px;
-	padding-right: 0px;
+#marketing-pics {
+	padding-top: 30px;
 }
 
 .content {
@@ -76,9 +46,21 @@ body {
 	font-family: 'Rajdhani', sans-serif;
 }
 
+
+/* contact form
+-------------------------------------------------- */
 .contact-form {
 	margin-top:70px;
 }
+
+.container {
+	margin-top: 70px;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
 
 /* footer
 -------------------------------------------------- */
@@ -98,18 +80,11 @@ body {
 		margin-top: 20px;
 	}
 
-	.featurette-heading {
-		font-size: 50px;
+	@media only screen and (min-width: 992px) {
+	}/* styles for md, lg screens go here*/
+	@media (min-width: 992px) {
+
 	}
 }
 
-
-@media only screen and (min-width: 992px) {
-}/* styles for md, lg screens go here*/
-
-@media (min-width: 992px) {
-	.featurette-heading {
-		margin-top: 120px;
-	}
-}
 
