@@ -23,3 +23,14 @@ You did an amazing job on milestone2a. The content strategy is clear and to the 
 
 ## Milestone 2&beta; Feedback
 Nice work so far - detailed notes from our meeting left via Slack. Your Milestone passes at [Tier IV](https://bootcamp-coders.cnm.edu/projects/personal/rubric/). Nice job! :D
+
+## Milestone 3 / Final PWP Feedback
+Congratulations on creating an absolutely beautiful PWP. Your design and layout looks great on mobile and desktop screens, and your contact form appears to work perfectly well on my end so check and see if you got my test message.
+
+I noted some suggestions below for some final polish. Excellent job here - your PWP passes at [Tier IV](https://bootcamp-coders.cnm.edu/projects/personal/rubric/)
+
+### Suggestions
+- Since the hamburger button only functions on small/mobile screens - I would hide it on the sm breakpoint on up. Have a look at Bootstrap's Responsive Utility classes.
+- There's a small horizontal scrollbar along the bottom on mobile view, so your HTML structure and/or CSS might need a slight adjustment.
+- Consider some custom jQuery for a smooth scrolling effect when a user clicks on a link.
+- Also consider opening your resume link in a new tab using the `target="_blank"` attribute on the <a> tag. 
