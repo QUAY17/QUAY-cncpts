@@ -1,3 +1,11 @@
+//carousel
+
+$(function(){
+	$('#carousel-example-controls').carousel();
+});
+
+//contact-form
+
 $(document).ready(function(){
 
 	/* begin validation*/
