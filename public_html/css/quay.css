@@ -39,7 +39,7 @@ body {
 }
 
 .content {
-	padding-top: 60px;
+	padding-top: 20px;
 }
 
 .lead {
@@ -48,8 +48,8 @@ body {
 
 /* contact form
 -------------------------------------------------- */
-/*.carousel {
-	height: 350px;
+.carousel-inner {
+	height: auto;
 }
 
 
