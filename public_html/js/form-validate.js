@@ -1,7 +1,7 @@
 //carousel
 
 $(function(){
-	$('#carousel-example-generic').carousel();
+	$('#carousel-quay').carousel();
 });
 
 //contact-form
